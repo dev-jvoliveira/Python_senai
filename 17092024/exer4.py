@@ -1,10 +1,10 @@
-preco_original = float(input("Digite o preço da mercadoria: R$ "))
+nota1 = float(input("Digite a primeira nota: "))
 
-percentual_desconto = float(input("Digite o percentual de desconto: "))
+nota2 = float(input("Digite a segunda nota: "))
 
-valor_desconto = preco_original * (percentual_desconto / 100)
+peso1 = 2
+peso2 = 3
 
-preco_a_pagar = preco_original - valor_desconto
+media_ponderada = (nota1 * peso1 + nota2 * peso2) / (peso1 + peso2)
 
-print(f"Valor do desconto: R$ {valor_desconto:.2f}")
-print(f"Preço a pagar: R$ {preco_a_pagar:.2f}")
+print("A média ponderada das notas é:", media_ponderada)

@@ -1,6 +1,6 @@
-n1 = int(input('Digite um numero '))
-n2 = int(input('Digite um numero '))
+n1 = int(input('Digite o primeiro numero para subtrair: '))
+n2 = int(input('Digite o segundo numero para subtrair: '))
 
-soma = (n1+n2)
+sub = n1-n2
 
-print ('O resultado da soma é ', soma)
+print ('O resultado da subtração é de: ', sub)

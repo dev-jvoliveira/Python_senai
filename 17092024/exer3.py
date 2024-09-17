@@ -1,10 +1,7 @@
-salario_atual = float(input("Digite o valor do salário atual: R$ "))
+primeiro_numero = float(input("Digite o primeiro número: "))
 
-percentual_aumento = float(input("Digite a porcentagem de aumento: "))
+segundo_numero = float(input("Digite o segundo número: "))
 
-valor_aumento = salario_atual * (percentual_aumento / 100)
+resultado = primeiro_numero / segundo_numero
 
-novo_salario = salario_atual + valor_aumento
-
-print(f"Valor do aumento: R$ {valor_aumento:.2f}")
-print(f"Novo salário: R$ {novo_salario:.2f}")
+print("O resultado da divisão é:", resultado)

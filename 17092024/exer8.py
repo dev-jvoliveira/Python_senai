@@ -1,12 +1,5 @@
-def calcular_area_quadrado():
-    
-    lado = float(input("Digite o comprimento do lado do quadrado: "))
-    
-    area = lado ** 2
-    
-    dobro_area = area * 2
-    
-    print(f"\nÁrea do quadrado: {area:.2f}")
-    print(f"Dobro da área: {dobro_area:.2f}")
+peso = float(input('Digite seu peso: '))
 
-calcular_area_quadrado()
+res = peso * 1000
+
+print(f'Seu peso em gramas é de {res:.2f}')

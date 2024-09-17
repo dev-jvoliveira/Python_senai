@@ -1,5 +1,7 @@
-temperatura_celsius = float(input("Digite a temperatura em °C: "))
+mercadoria = float(input('Digite o valor do produto: '))
 
-temperatura_fahrenheit = (9 / 5) * temperatura_celsius + 32
+valor_desconto = mercadoria * 0.10
+valor_novo = mercadoria - valor_desconto
 
-print(f"A temperatura em °F é: {temperatura_fahrenheit:.2f}")
+print(f'Você teve um desconto de R$: {valor_desconto:.2f}')
+print(f'O Valor do produto com desconto foi de: {valor_novo:.2f}')

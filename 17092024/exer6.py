@@ -1,8 +1,8 @@
-numero = int(input("Digite um número inteiro: "))
+venda = float(input('Digite o valor da primera venda: '))
+salario = float(input('Digite o valor do salario: '))
+comissao_venda = 0.04
 
-antecessor = numero - 1
-sucessor = numero + 1
+final_mes = (venda*comissao_venda)+salario
 
-print(f"Número informado: {numero}")
-print(f"Antecessor: {antecessor}")
-print(f"Sucessor: {sucessor}")
+print(f' O valor total a receber é de: ', final_mes)
+

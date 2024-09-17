@@ -1,8 +1,8 @@
-metro = int(input('Digite o valor em metros: '))
+n1 = int(input('Digite um numero para multiplicar: '))
+n2 = int(input('Digite um numero para multiplicar: '))
+n3 = int(input('Digite um numero para multiplicar: '))
 
-milimetro = metro * 1000
+multi = (n1*n2)*n3
 
-print('O o valor convertido para milimetros é ', milimetro)
-    
+print('O resultado da multiplicação é de: ', multi)
 
-    
