@@ -1,0 +1,30 @@
+tabela de irrf:
+
+conhecendo a base real do imposto, pode-se identificar a faixa de percentual em que o funcionario se encaixa, as faixas atualizadas são:
+
+até R$ 1.903,98: isenção;
+1° faixa: 7,5% para bases de R$1.903,99 a R$ 2.826,65;
+2° faixa: 15% para bases de R$ 2.826,66 a R$3.751,05;
+3° faixa: 22,5% para bases de R$ 3.751,06 a R$ 4.664,68 ;
+4° faixa: 27,5% para bases a partir de R$ 4.664,69;
+
+Apos verificado o imposto com a aliquota da sua base de cálculo, é deduzido um valor padrão, o que permite obter o valor final do imposto. cada faixa de tributação definida, da seguinte forma:
+
+1° faixa: R$ 142,80;
+2° faixa: R$ 354,80;
+3° faixa: R$ 636,13;
+4° faixa: R$ 869,36;
+
+Abaixo é mostrada a contabilização do imposto no caso de um exemplo:
+
+R$ 2.250,41 x 7,5% = R$ 168,78; imposto de enda a pagar.
+R$ 168,78 - R$ 142,80 = R$ 25,98 de IR a ser retido na fonte.
+
+Crie um programa que dado um salário bruto digitado fornece:
+
+Salário bruto;
+Faixa de IR (em percentual);
+Imposto de renda a pagar (antes do desconto do valor padrão);
+Valor padrão(de acordo com a faixa de IR);
+Imposto retido na fonte;
+Salário líquido.

@@ -31,4 +31,5 @@ while r == 'S':
         print("Operação inválida. Por favor, escolha uma das operações listadas.")
     
     r = input('Quer continuar? (S/N): ').upper()
-    n = print("Tamo junto, obrigado por utilizar a calculadora")
+else:
+    print("Tamo junto, obrigado por utilizar a calculadora")
