@@ -13,7 +13,7 @@ elif salario_bruto <= 4664.68:
     ir = 0.225
     deducao = 636.13
 else:
-    ir = 0.275
+    ir = 0.257
     deducao = 869.36
 
 imposto_a_pagar = salario_bruto * ir
