@@ -11,4 +11,4 @@ for i in range(5):
         menor_peso = peso
 
 print(f'O maior peso lido foi: {maior_peso} kg')
-print(f'O menor peso lido foi: {menor_peso} kd')
+print(f'O menor peso lido foi: {menor_peso} kg')
